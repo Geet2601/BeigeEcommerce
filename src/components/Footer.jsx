@@ -1,28 +1,39 @@
-import "./Footer.css";
+  import "./Footer.css";
 
-function Footer() {
-  return (
-    <>
-      <footer>
-        {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-        <div className="footer-links">
-          <a href="https://geet2601.github.io/E--Portfolio/">About</a>
-          <a href="#">Store locator</a>
-          <a href="#">FAQs</a>
-          <a href="#">News</a>
-          <a href="#">Careers</a>
-          <a href="#">ContactUs</a>
+  function Footer() {
+    return (
+      <>
+        <footer>
+        
+          <div className="footer-links">
+            <button type="button" onClick={() => window.location.href = 'https://geet2601.github.io/E--Portfolio/'}>ABOUT</button>
+            <button type="button" onClick={() => window.location.href = '#'}>
+            Store locator
+          </button>
+          <button type="button" onClick={() => window.location.href = '#'}>
+            FAQs
+          </button>
+          <button type="button" onClick={() => window.location.href = '#'}>
+            News
+          </button>
+          <button type="button" onClick={() => window.location.href = '#'}>
+            Careers
+          </button>
+          <button type="button" onClick={() => window.location.href = '#'}>
+            Contact Us
+          </button>
         </div>
         <p className="love">
-         {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-          &nbsp;{" "}
-          <a
-            target="_blank"
-            rel="noreferrer"
+          &nbsp;
+          <button
+            type="button"
+            onClick={() => {
+              // Handle click action for the love button
+            }}
             style={{ color: "white" }}
-         >
+          >
             &nbsp;
-          </a>
+          </button>
         </p>
       </footer>
     </>
