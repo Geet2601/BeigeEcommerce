@@ -7,23 +7,23 @@ function Footer() {
 
   return (
     <>
-      <footer>
+      <footer >
       
         <div className="footer-links">
-          <button type="button" onClick={() => openLinkInNewTab('https://geet2601.github.io/E--Portfolio/')}>ABOUT</button>
-          <button type="button" onClick={() => window.location.href = '#'}>
+          <button className="justfooter" type="button" onClick={() => openLinkInNewTab('https://geet2601.github.io/E--Portfolio/')}>ABOUT</button>
+          <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
           Store locator
         </button>
-        <button type="button" onClick={() => window.location.href = '#'}>
+        <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
           FAQs
         </button>
-        <button type="button" onClick={() => window.location.href = '#'}>
+        <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
           News
         </button>
-        <button type="button" onClick={() => window.location.href = '#'}>
+        <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
           Careers
         </button>
-        <button type="button" onClick={() => window.location.href = '#'}>
+        <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
           Contact Us
         </button>
       </div>
