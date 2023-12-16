@@ -93,6 +93,9 @@ a {
     align-items: center;
     width: 100%;
     margin-bottom: 6rem;
+    color:rgb(242, 218, 184);
+   
+    
 }
 
 .title-home h3 {
@@ -100,6 +103,7 @@ a {
     text-transform: uppercase;
     text-align: center;
     margin: 0 auto;
+   
 }
 
 .title-home a {
@@ -110,6 +114,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 
