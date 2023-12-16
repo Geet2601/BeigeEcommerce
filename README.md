@@ -34,7 +34,4 @@ This repository showcases the responsive front-end design of Beige E-commerce, p
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to create issues or pull requests. Let's collaborate to enhance the user experience of our e-commerce platform.
 
 # Preview
-![BeigeHome](https://github.com/Geet2601/BeigeEcommerce/assets/138841476/7485eaf6-3d87-4595-931c-583eeb244d5a)
-
-
-    
+![BeigeNewHome](https://github.com/Geet2601/BeigeEcommerce/assets/138841476/92453be4-c896-4e86-99af-adf83cb5012b)
