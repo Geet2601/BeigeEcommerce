@@ -250,7 +250,7 @@
 
     .product-big-name {
         width: 32rem;
-        text-align: justify;
+        text-align: left;
         margin-top: -7.3rem;
         font-size: 3rem;
     }
