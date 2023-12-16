@@ -249,8 +249,8 @@
     }
 
     .product-big-name {
-        width: 31rem;
-        text-align: center;
+        width: 32rem;
+        text-align: justify;
     }
 }
 
