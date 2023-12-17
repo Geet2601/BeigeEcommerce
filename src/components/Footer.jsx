@@ -23,7 +23,7 @@ function Footer() {
         <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
           Careers
         </button>
-        <button className="justfooter" type="button" onClick={() => window.location.href = '#'}>
+        <button className="justfooter" type="button" onClick={() => openLinkInNewTab('https://github.com/Geet2601')}>
           Contact Us
         </button>
       </div>
